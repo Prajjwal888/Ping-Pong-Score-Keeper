@@ -1,0 +1,64 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.select {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-footer {
+    justify-content: center;
+}
+
+.button {
+    margin: 0 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .column.is-half.is-offset-one-quarter {
+        width: 100%;
+    }
+}
